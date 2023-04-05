@@ -20,7 +20,6 @@ function generateRandomPassword() {
         randomPassword += getRandomCharacter()         
     }
     passwordField1.textContent = randomPassword
-    return randomPassword
     
 }
 
@@ -30,6 +29,5 @@ function generateRandomPassword2() {
         randomPassword += getRandomCharacter()         
     }
     passwordField2.textContent = randomPassword
-    return randomPassword
     
 }
